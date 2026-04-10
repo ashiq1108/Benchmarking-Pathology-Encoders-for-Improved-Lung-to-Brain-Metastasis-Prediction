@@ -1,0 +1,36 @@
+# ── Slide & tile data (never commit) ──────────────────────────────────────
+*.svs
+*.ndpi
+*.tiff
+*.tif
+*.h5
+
+# ── Cached features (large, regeneratable) ────────────────────────────────
+*.npy
+
+# ── Model checkpoints (host on Zenodo/HuggingFace instead) ────────────────
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Google Colab / Kaggle temp ────────────────────────────────────────────
+/content/
+/kaggle/

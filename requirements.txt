@@ -1,0 +1,30 @@
+# ── Core scientific stack ─────────────────────────────────────────────────
+numpy
+pandas
+matplotlib
+Pillow
+h5py
+scipy
+
+# ── PyTorch (install the CUDA version matching your GPU from pytorch.org) ─
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# ── Vision models ─────────────────────────────────────────────────────────
+timm==0.9.16
+einops
+transformers
+huggingface_hub
+
+# ── Pathology / WSI ───────────────────────────────────────────────────────
+openslide-python
+staintools
+spams-bin
+opencv-python
+
+# ── Evaluation ────────────────────────────────────────────────────────────
+scikit-learn
+
+# ── Notebook ──────────────────────────────────────────────────────────────
+jupyter
+ipykernel
