@@ -59,7 +59,6 @@ domain-specific data beat large-scale pathology foundation models?
 | G | H-optimus-0 | SSL — large-scale pathology |
 | H | Phikon-v2 | SSL — large-scale pathology |
 | I | UNI2-h | DINOv2 — large-scale pathology |
-| J | Hibou-L | SSL — large-scale pathology |
 
 ---
 
