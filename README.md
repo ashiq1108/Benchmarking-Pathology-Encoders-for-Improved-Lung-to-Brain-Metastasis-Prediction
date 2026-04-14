@@ -9,16 +9,16 @@ domain-specific data beat large-scale pathology foundation models?
 
 ---
 
-## Pipeline overview
+       ## Pipeline overview
 
 ```
-Raw SVS slides (TCIA)
-        │
-        ▼
+       Raw SVS slides (TCIA)
+                 │
+                 ▼
 ┌─────────────────────────────────┐
 │  1. Preprocessing               │  tcia_preprocessing.ipynb
 │  Otsu tissue mask → blur filter │  Local machine
-│  → Vahadane stain norm → .h5   │
+│  → Vahadane stain norm → .h5    │
 └────────────────┬────────────────┘
                  │
                  ▼
@@ -33,7 +33,7 @@ Raw SVS slides (TCIA)
 ┌─────────────────────────────────┐
 │  3. MIL Benchmark (All Arms)    │  all_arms_mil_benchmark.ipynb
 │  Frozen encoder → cached .npy   │  Kaggle (dual GPU)
-│  → Attention MIL → AUC         │
+│  → Attention MIL → AUC          │
 └────────────────┬────────────────┘
                  │
                  ▼
